@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="vh-100 d-flex justify-content-center align-items-center">
+        <div class="container bg-white p-3 rounded">
+            <h1>TODO APP</h1>
+            <div class="d-flex gap-2">
+                <input type="text" class="form-control" placeholder="ADD YOUR NEW TODO" id="nameInput">
+                <button class="btn btn-outline-success" id="mainBtn">
+                    <i id="addIcon" class="fa-solid fa-plus fs-1"></i>
+                    <i id="updateIcon" class="fa-solid fa-pen-nib fs-1 d-none"></i>
+                </button>
+            </div>
+            <div id="tableContent">
+                <!-- <div class="testat d-flex bg-secondary bg-opacity-25 rounded p-2 my-1 position-relative overflow-hidden">
+                    <h3 class="w-75 ms-1">hamada</h3>
+                    <button class="btn position-absolute top-50 translate-middle-y " >
+                        <i class="fa-solid fa-trash bg-danger fs-3 p-5 text-white"></i>
+                    </button>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

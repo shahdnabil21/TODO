@@ -1,0 +1,14 @@
+body{
+    background-image: linear-gradient(#c39bd3,#5e4567 );
+}
+*{
+    font-family: "Jaro", serif;
+}
+.testat button{
+    padding: 0 !important;
+    right: -26%;
+    transition: 1s;
+}
+.testat:hover button{
+    right: 0;
+}
